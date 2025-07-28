@@ -1,14 +1,12 @@
 # 📘 Blackboard Learn APIs – Postman Collection
 
-A Postman collection for working with the Blackboard Learn REST APIs, as documented on [Anthology's Developer Portal](https://developer.blackboard.com/portal/displayApi). It includes endpoints for authentication, user and course management, content access, and more.
-
 ---
 
 ## 📖 Table of Contents
 
 - [📘 Blackboard Learn APIs – Postman Collection](#-blackboard-learn-apis--postman-collection)
   - [📖 Table of Contents](#-table-of-contents)
-  - [✅ Purpose](#-purpose)
+  - [🤓 Overview](#-overview)
   - [🛠️ Pre-requisites](#️-pre-requisites)
   - [🔐 Authentication Workflow](#-authentication-workflow)
   - [🚀 Using the Collection](#-using-the-collection)
@@ -19,9 +17,9 @@ A Postman collection for working with the Blackboard Learn REST APIs, as documen
 
 ---
 
-## ✅ Purpose
+## 🤓 Overview
 
-This collection is designed to simplify development and testing against the Blackboard Learn APIs using Postman. It supports common tasks including authentication, course and user operations, and API chaining with environment variables.
+A Postman collection for working with the Blackboard Learn REST APIs, as documented on [Anthology's Developer Portal](https://developer.blackboard.com/portal/displayApi). It includes endpoints for authentication, user and course management, content access, and more.
 
 ---
 
