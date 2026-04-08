@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Postman collection for working with the Blackboard Learn REST APIs, as documented on [Anthology's Developer Portal](https://developer.blackboard.com/portal/displayApi). It includes endpoints for authentication, user and course management, content access, and more.
+A Postman collection for the Blackboard Learn REST APIs, built as part of a comparative evaluation of REST APIs across three LMS platforms (Blackboard, Canvas, and Brightspace). It covers authentication, user and course management, content access, and more.
 
 ## Pre-requisites
 
@@ -41,7 +41,7 @@ These credentials are used to authenticate via Basic Auth and retrieve an OAuth 
 - Endpoints are grouped by category (for example, Users, Courses, Enrolments).
 - Some requests require specific parameters such as `userId` or `courseId`.
 - Postman scripts are included to handle token storage and variable assignment.
-- Supports chaining requests and managing dynamic workflows with variables and pre-request scripts.
+- Requests can be chained using variables and pre-request scripts.
 
 ## Installation
 
@@ -49,18 +49,17 @@ To install the collection:
 
 ```bash
 git clone https://github.com/Karl-Horning/blackboard-learn-apis-postman-collection.git
-cd blackboard-learn-postman
 ```
 
-Then follow **Import the Swagger File into Postman** in this guide:
-[Using Blackboard's Swagger File to Create a Postman Collection and Make an API Call](https://www.karlhorning.dev/blog/using-blackboards-swagger-file-to-create-a-postman-collection-and-make-an-api-call)
+Then import `src/postman-collection/Learn APIs.postman_collection.json` into Postman via **File > Import**.
 
 ## Further Reading
 
+- [Testing LMS APIs: What an OpenAPI Spec Gives You (and What It Doesn't)](https://www.karlhorning.dev/blog/testing-lms-apis)
 - [Basic Authentication with REST](https://docs.anthology.com/docs/blackboard/rest-apis/getting-started/basic-authentication)
 - [Blackboard Learn API Documentation](https://developer.blackboard.com/portal/displayApi)
 - [Anthology Developer Portal](https://developer.anthology.com/)
 
 ## Licence
 
-MIT © 2025 Karl Horning
+MIT © 2025 [Karl Horning](https://github.com/Karl-Horning)
