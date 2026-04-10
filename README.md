@@ -1,10 +1,10 @@
 # Blackboard Learn APIs – Postman Collection
 
-## Overview
+> This project is no longer maintained. It is preserved here for reference only.
 
-A Postman collection for the Blackboard Learn REST APIs, built as part of a comparative evaluation of REST APIs across three LMS platforms (Blackboard, Canvas, and Brightspace). It covers authentication, user and course management, content access, and more.
+A Postman collection for the Blackboard Learn REST APIs, built as part of a comparison of REST APIs across three LMS platforms (Blackboard, Canvas, and Brightspace). It covers authentication, user and course management, and content access.
 
-## Pre-requisites
+## Prerequisites
 
 Before using this collection, define the following **Global Variables** in Postman:
 
@@ -16,11 +16,11 @@ Before using this collection, define the following **Global Variables** in Postm
 
 These credentials are used to authenticate via Basic Auth and retrieve an OAuth 2.0 token.
 
-## Authentication Workflow
+## Authentication workflow
 
 1. Send a `POST` request to:
 
-   ```bash
+   ```text
    {{baseUrl}}/learn/api/public/v1/oauth2/token
    ```
 
@@ -30,35 +30,39 @@ These credentials are used to authenticate via Basic Auth and retrieve an OAuth 
 
 4. This token is automatically used for future requests by setting the header:
 
-   ```bash
+   ```text
    Authorization: Bearer {{apiKey}}
    ```
 
 > ⚠️ Be sure to retrieve an access token before calling any other endpoints.
->
-## Using the Collection
+
+## Using the collection
 
 - Endpoints are grouped by category (for example, Users, Courses, Enrolments).
 - Some requests require specific parameters such as `userId` or `courseId`.
 - Postman scripts are included to handle token storage and variable assignment.
 - Requests can be chained using variables and pre-request scripts.
 
-## Installation
+## Setup
 
-To install the collection:
+To import the collection:
 
-```bash
+```text
 git clone https://github.com/Karl-Horning/blackboard-learn-apis-postman-collection.git
 ```
 
 Then import `src/postman-collection/Learn APIs.postman_collection.json` into Postman via **File > Import**.
 
-## Further Reading
+## Further reading
 
 - [Testing LMS APIs: What an OpenAPI Spec Gives You (and What It Doesn't)](https://www.karlhorning.dev/blog/testing-lms-apis)
 - [Basic Authentication with REST](https://docs.anthology.com/docs/blackboard/rest-apis/getting-started/basic-authentication)
 - [Blackboard Learn API Documentation](https://developer.blackboard.com/portal/displayApi)
 - [Anthology Developer Portal](https://developer.anthology.com/)
+
+## Issues
+
+If you have questions, open a [GitHub issue](https://github.com/Karl-Horning/blackboard-learn-apis-postman-collection/issues).
 
 ## Licence
 
