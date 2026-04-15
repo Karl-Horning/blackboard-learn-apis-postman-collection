@@ -60,10 +60,10 @@ Then import `src/postman-collection/Learn APIs.postman_collection.json` into Pos
 - [Blackboard Learn API Documentation](https://developer.blackboard.com/portal/displayApi)
 - [Anthology Developer Portal](https://developer.anthology.com/)
 
-## Issues
+## Feedback
 
 If you have questions, open a [GitHub issue](https://github.com/Karl-Horning/blackboard-learn-apis-postman-collection/issues).
 
-## Licence
+## License
 
-MIT © 2025 [Karl Horning](https://github.com/Karl-Horning)
+Released under the [MIT License](./LICENSE) by [Karl Horning](https://github.com/Karl-Horning).
