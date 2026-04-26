@@ -1,6 +1,6 @@
 # Blackboard Learn APIs – Postman Collection
 
-> This project is no longer maintained. It is preserved here for reference only.
+> **Archived.** This proof-of-concept was built as part of an LMS evaluation comparing Blackboard, Canvas, and Brightspace. It was used during user testing; Canvas was selected as the platform going forward. It is kept here as a portfolio reference only; no further changes are planned.
 
 A Postman collection for the Blackboard Learn REST APIs, built as part of a comparison of REST APIs across three LMS platforms (Blackboard, Canvas, and Brightspace). It covers authentication, user and course management, and content access.
 
